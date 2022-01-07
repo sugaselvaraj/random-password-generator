@@ -1,0 +1,43 @@
+body {
+    background: radial-gradient(#51E1ED,#12B0E8);
+}
+.container {
+    width: 600px;
+    margin-top: 200px;
+}
+
+.output {
+    width: 100%;
+    padding: 5px;
+    margin: 40px 0;
+    height: 50px;
+}
+
+.pass {
+    width: 80%;
+    padding: 2px 0;
+    font-size: 1.5em;
+}
+
+.btn {
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+
+.in {
+    width: 20%;
+    padding: 2px 30px;
+    text-align: center;
+    float: right;
+}
+
+@media(max-width: 600px) {
+    .container {
+        width: 400px;
+    }
+
+    .in {
+        padding: 0;
+    }
+}
+
